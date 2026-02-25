@@ -1,0 +1,38 @@
+# Batu Adventure - robots.txt
+# https://batuadventure.id
+
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# AI Crawlers - Allowed for AEO/GEO optimization
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://batuadventure.id/sitemap.xml
